@@ -32,9 +32,18 @@ data = pd.read_csv("../raw_dataset/zomato.csv")
 ### 2) Initial Exploration
 The notebook inspects the dataset using:
 - `data.head(5)`
+
+![data.head](../images/data.head().png)
 - `data.shape`
+
 - `data.columns`
+
+![data.shape](../images/data.columns().png)
+
 - `data.info()`
+
+![data.info](../images/data.info().png)
+
 - `data["menu_item"].value_counts()`
 
 This step confirms structure, data types, and candidate columns for cleaning.
@@ -125,6 +134,5 @@ The cleaned dataset contains:
 - Approximate cost for two people as integer
 
 ## Notes
-- The workflow prioritizes readability and beginner-friendly transformations.
 - Exports currently include a default index column from pandas.
 - If desired, exports can be changed to omit index using `index=False`.
