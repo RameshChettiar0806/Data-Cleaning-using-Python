@@ -72,7 +72,7 @@ What the notebook does:
 - Exports the cleaned dataset to CSV and Excel.
 - The exported files currently include the default pandas index column.
 
-Documentation: [Zomato Dataset/documentation/obsidian/Zomato Dataset.md](Zomato%20Dataset/documentation/obsidian/Zomato%20Dataset.md)
+Documentation: [Zomato Dataset/documentation/obsidian/Zomato Dataset.md](/Zomato%20Dataset/documentation/Zomato%20Dataset.md)
 
 ## Notes
 
