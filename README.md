@@ -5,8 +5,18 @@ This repository contains dataset-specific cleaning notebooks and the cleaned out
 ## Repository Structure
 
 - `AirBNB Dataset/`
+- `Netflix Dataset/`
 - `Sales Dataset/`
 - `Zomato Dataset/`
+
+## Netflix Dataset
+
+Source: [To be added]
+
+What the notebook does:
+
+- Loads the raw CSV file from `raw_dataset/netflix1.csv`.
+- Exports the cleaned dataset to `Cleaned_Dataset.csv` and `Cleaned Netflix Dataset.xlsx`.
 
 ## AirBnB Dataset
 
