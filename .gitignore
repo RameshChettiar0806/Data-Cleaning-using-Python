@@ -4,12 +4,14 @@
 # Allow directories to be traversed
 !*/
 
-# Explicitly ignore images
-images/
+# Explicitly ignore images and data files
 **/images/
+*.csv
+*.xlsx
 
 # Allow specific files
 !*.ipynb
-!/README.md
-!documentation/
-!documentation/**/*.md
+!README.md
+!**/documentation/
+!**/documentation/**/*.md
+!.gitignore
