@@ -6,6 +6,7 @@ This repository contains dataset-specific cleaning notebooks and the cleaned out
 
 - `AirBNB Dataset/`
 - `Sales Dataset/`
+- `Zomato Dataset/`
 
 ## AirBnB Dataset
 
@@ -49,7 +50,30 @@ What the notebook does:
 - Exports the cleaned dataset to `Cleaned_Dataset.csv`.
 - Exports the cleaned dataset to `Cleaned_Dataset.xlsx` and auto-fits the Excel column widths.
 
+## Zomato Dataset
 
-## Notes 
+Source: [Kaggle - Zomato Dataset](https://www.kaggle.com/datasets/rishikeshkonapure/zomato)
+
+Notebook used: [Zomato Dataset/data_cleaning_and_preprocessing/cleaning__dataset.ipynb](Zomato%20Dataset/data_cleaning_and_preprocessing/cleaning__dataset.ipynb)
+
+What the notebook does:
+
+- Imports the required Python libraries and checks package versions.
+- Loads the raw CSV file from `Zomato Dataset/raw_dataset/zomato.csv`.
+- Inspects the dataset using `head()`, `shape`, `columns`, `info()`, and value counts.
+- Keeps only the columns needed for the cleaned output.
+- Renames the selected columns to a cleaner display format.
+- Removes duplicate rows.
+- Converts the online order and table booking flags to binary values.
+- Cleans the rating field by handling placeholders and formatting the text.
+- Resets the index before dropping remaining missing values.
+- Removes missing values.
+- Cleans the cost column by removing commas and converting it to integers.
+- Exports the cleaned dataset to CSV and Excel.
+- The exported files currently include the default pandas index column.
+
+Documentation: [Zomato Dataset/documentation/obsidian/Zomato Dataset.md](Zomato%20Dataset/documentation/obsidian/Zomato%20Dataset.md)
+
+## Notes
 
 - If a cleaned Excel file shows `#####` in a column, widen the column before exporting or after saving.
