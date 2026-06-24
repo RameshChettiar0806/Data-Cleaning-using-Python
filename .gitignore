@@ -1,4 +1,15 @@
-*.csv
-*.xlsx
-*.gitattributes
-*.gitignore
+# Ignore everything by default
+*
+
+# Allow directories to be traversed
+!*/
+
+# Explicitly ignore images
+images/
+**/images/
+
+# Allow specific files
+!*.ipynb
+!/README.md
+!documentation/
+!documentation/**/*.md
