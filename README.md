@@ -9,14 +9,6 @@ This repository contains dataset-specific cleaning notebooks and the cleaned out
 - `Sales Dataset/`
 - `Zomato Dataset/`
 
-## Netflix Dataset
-
-Source: [To be added]
-
-What the notebook does:
-
-- Loads the raw CSV file from `raw_dataset/netflix1.csv`.
-- Exports the cleaned dataset to `Cleaned_Dataset.csv` and `Cleaned Netflix Dataset.xlsx`.
 
 ## AirBnB Dataset
 
@@ -83,6 +75,25 @@ What the notebook does:
 - The exported files currently include the default pandas index column.
 
 Documentation: [Zomato Dataset/documentation/Zomato Dataset.md](Zomato%20Dataset/documentation/Zomato%20Dataset.md)
+
+## Netflix Dataset
+
+Source: [To be added]
+
+What the notebook does:
+
+- Loads the raw CSV file from `raw_dataset/netflix1.csv`.
+- Inspects the dataset using `sample()` and `columns`
+- Keeps only the columns needed for the cleaned output.
+- Capitalizes column names.
+- Removes duplicate rows.
+- Replaces values "Not Given" with NaN.
+- Drops rows with NaN values.
+- Sorts the dataset by `Release_year` and `Duration`.
+- Resets the index and preserves the original row index as a column.
+- Exports the cleaned dataset to `Cleaned_Dataset.csv` and `Cleaned Netflix Dataset.xlsx`.
+
+
 
 ## Notes
 
