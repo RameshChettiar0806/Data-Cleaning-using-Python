@@ -78,7 +78,7 @@ Documentation: [Zomato Dataset/documentation/Zomato Dataset.md](Zomato%20Dataset
 
 ## Netflix Dataset
 
-Source: [To be added]
+Source: [Kaggle - Netflix Dataset](https://www.kaggle.com/datasets/ariyoomotade/netflix-data-cleaning-analysis-and-visualization/code)
 
 What the notebook does:
 
